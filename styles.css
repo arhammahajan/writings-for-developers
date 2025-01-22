@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+body {
+    background-color: #232830;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+#logo {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    cursor: pointer;
+}
+.nav-item {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    cursor: pointer;
+}
+.nav-items-ctn {
+    display: flex;
+    gap: 15px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+#hero-logo {
+    width: 194.45px;
+    height: 204.08px;
+    object-fit: contain;
+}
+.hero-heading {
+    font-style: italic;
+    font-size: 71px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    color: #FF7575;
+    flex: 1 1 100%;
+    text-align: center;
+}
+.hero-subheading {
+    font-weight: 400;
+    font-size: 29px;
+}
+hr {
+    background-color: #4d4d4d;
+    height: 3px;
+    border: none;
+    opacity: 20%;
+    margin-top: 80px;
+}
+.category-listing {
+    font-family: 'Recursive';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32.4px;
+    color: #909090;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}   
+.category-item {
+    cursor: pointer;
+}
+.category-listing button {
+    color: #909090;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.articles-ctn {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+.article {
+    background-color: white;
+    width: 390px;
+    height: 439px;
+    border-radius: 22px;
+    padding-top: 12px;
+    padding-top: 12px;
+    cursor: pointer;
+    transition:transform 0.1s ease-in;
+}
+.article:hover {
+
+    transform: scale(1.02);
+}
+.article-hero {
+    display: flex;
+    padding-left:26.5px ;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+.article h2 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28.5px;
+    width: 337.08px;
+    height: 58px;
+}
+.article img {
+    width: 337.08px;
+    height: 160px;
+}
+.article p {
+    width: 326.73px;
+}
+.article-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    padding-left:26.5px ;
+    gap: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    height: 47px;
+}
+.pagination a {
+    font-family: 'Recursive';
+    font-style: italic;
+    font-weight: 400;
+    color: #909090;
+    text-decoration: none;
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.pagination a:hover {
+    color: #FF7575;
+}
+.active {
+    color: #FF7575;
+}
