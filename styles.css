@@ -5,7 +5,6 @@
 }
 body {
     background-color: #232830;
-
 }
 nav {
     display: flex;
@@ -77,7 +76,7 @@ hr {
     gap: 20px;
     justify-content: center;
     padding-top: 10px;
-}   
+}
 .category-item {
     cursor: pointer;
 }
@@ -106,7 +105,6 @@ hr {
     transition:transform 0.1s ease-in;
 }
 .article:hover {
-
     transform: scale(1.02);
 }
 .article-hero {
@@ -151,14 +149,17 @@ hr {
     font-weight: 400;
     color: #909090;
     text-decoration: none;
-    width: 45px;
-    height: 30px;
+    padding: 8px 12px 8px 12px;
     text-align: center;
     line-height: 30px;
+}
+.page {
+    border-top: 2px solid transparent;
 }
 .pagination a:hover {
     color: #FF7575;
 }
-.active {
+.pagination .active {
     color: #FF7575;
+    border-top: 2px solid #FF7575;
 }
